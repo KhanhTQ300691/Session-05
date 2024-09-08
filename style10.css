@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vh;
+}
+.container {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 20px 50px;
+}
+.topic h2 {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.country {
+  display: flex;
+  justify-content: space-between;
+}

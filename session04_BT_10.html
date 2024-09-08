@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style10.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="topic">
+        <h2>Billing Address</h2>
+        <form action="">
+          <div class="name">
+            <div class="firstname">
+              <label for="firstname">First name</label>
+              <input name="firstname" id="firstname" type="text" required />
+            </div>
+            <div>
+              <label for="lastname">Last name</label>
+              <input name="lasttname" id="lastname" type="text" />
+            </div>
+          </div>
+
+          <div>
+            <label for="">Username</label>
+            <input
+              type="text"
+              name="Username"
+              id="Username"
+              placeholder="Username"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email(Optional)</label>
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              placeholder="you@example.com"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="address">Address</label>
+            <input
+              type="text"
+              name="Address"
+              id="address"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="address">Address 2(Optional)</label>
+            <input
+              type="text"
+              name="Address"
+              id="address"
+              placeholder="Apartment or suite"
+            />
+          </div>
+          <br />
+
+          <div class="country">
+            <div>
+              <label for="country">Country</label>
+              <select name="Country" id="coutry" placeholder="Choose...">
+                <option value="Country">A</option>
+                <option value="Country">B</option>
+                <option value="Country">C</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="">State</label>
+              <select name="State" id="state" placeholder="Choose...">
+                <option value="state">D</option>
+                <option value="state">E</option>
+                <option value="state">F</option>
+              </select>
+            </div>
+            <div>
+              <label for="zip">Zip</label>
+              <input type="password" name="Zip" id="zip" />
+            </div>
+          </div>
+          <hr />
+          <div class="choose">
+            <div>
+              <label for="shipping"
+                >Shipping address is the same as my billing address</label
+              >
+              <input type="checkbox" name="Opinion" id="shipping" />
+            </div>
+            <div>
+              <label for="shipping">Save this information for next time</label>
+              <input type="checkbox" name="Opinion 1" id="shipping" />
+            </div>
+            <hr />
+            <div>
+              <h2>Payment</h2>
+            </div>
+            <div>
+              <label for="credit">Credit card</label>
+              <input type="radio" name="payment" id="credit" />
+            </div>
+            <div>
+              <label for="debit">Debit card</label>
+              <input type="radio" name="payment" id="debit" />
+            </div>
+            <div>
+              <label for="paypal">PayPal</label>
+              <input type="radio" name="payment" id="paypal" />
+            </div>
+          </div>
+          <div>
+            <label for="namecard">Name on card</label>
+            <input type="text" name="namecard" id="namecard" />
+          </div>
+          <div>
+            <label for="creditcard">Credit card number</label>
+            <input type="number" name="creditcard" id="creditcard" />
+            <caption>
+              Full name as displayed on card
+            </caption>
+          </div>
+          <div>
+            <label for="expiration">Expiration</label>
+            <input type="text" name="Expiration" id="expiration" />
+          </div>
+          <div>
+            <label for="CVV">CVV</label>
+            <input type="text" name="CVV" id="CVV" />
+          </div>
+          <hr />
+          <button>Continue to checkout</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
